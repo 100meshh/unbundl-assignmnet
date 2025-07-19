@@ -1,0 +1,172 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+  margin: 0%;
+}
+.boxx {
+  width: 473px;
+  height: 450px;
+  background-color: #ffe0c4;
+  padding: 24px 40px 24px 40px;
+  gap:20px;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-image: url("../images/bg3.jpg");
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;
+}
+.headings{
+  width:393px;
+  height:76px;
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  margin :15px;
+}
+#text1{
+  width:393px;
+  height:26px;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 20px;
+  letter-spacing: 0%;
+  color: #303030;
+  font-family: 'Figtree', sans-serif;
+  top:0;
+}
+#text2{
+  width: 393px;
+  height:42px;
+  font-weight: 400;
+  font-style: regular;
+  font-size: 16px;
+  letter-spacing: 0%;
+  color: #474747;
+  font-family: 'Figtree', sans-serif;
+}
+
+.sub-box{
+  width:393px;
+  height:256px;
+  gap:20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs{
+  width:393px;
+  height:146px;
+  gap:16px;
+  display: flex;
+   flex-direction: column;
+}
+
+#name{
+  width:393px;
+  height:38px;
+  border-radius: 24px;
+  border:1px;
+  border-color: #ffe0c4;
+  gap:10px;
+  background-color:#ffffff;
+  padding:14px 16px 14px 16px;
+  color:#777777;
+  font-weight: 400;
+  font-size:16px;
+}
+#number{
+  width:393px;
+  height:38px;
+  border-radius: 24px;
+  border:1px;
+  border-color: #ffe0c4;
+  padding:14px 16px 14px 16px;
+  gap:10px;
+  background-color:#ffffff;
+  color:#777777;
+  font-weight: 400;
+  font-size:16px;
+}
+.captcha-group {
+  display: flex;
+  gap: 0; /* You can add if you want spacing */
+}
+#captcha1{
+  width:283px;
+  height:38px;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  border:1px;
+  border-color: #ffe0c4;
+  padding:17px 16px 17px 16px;
+  gap:10px;
+  background-color:#ffffff;
+  color:#777777;
+  font-weight: 400;
+  font-size:16px;
+}
+#captcha2{
+  width:110px;
+  height:38px;
+  border-top-right-radius: 24px;
+  border-bottom-right-radius: 24px;
+  /* border:1px; */
+  border-color: #ffe0c4;
+  padding:17px 16px 17px 16px;
+  gap:10px;
+  background-color:#462512;
+  color:white;
+  font-weight: 400;
+  font-size:14px;
+}
+
+
+.tick-box {
+  width: 393px;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+#tick-checkbox {
+  width: 19px;
+  height: 19px;
+  border-radius: 4px;
+  border: 1px solid #ffe0c4;
+  background-color: white;
+  margin-top: 3px; /* Align vertically with text */
+}
+
+.tick-text {
+  width: 366px;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #303030;
+}
+
+.consult{
+  width:393px;
+  height:38px;
+  border-radius: 24px;
+  padding:14px 16px 14px 16px;
+  gap:10px;
+  background-color: #F58420;
+}
+#consult-content{
+  width:160px;
+  height:10px;
+  font-family: 'Figtree', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color:white;
+}
