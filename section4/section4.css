@@ -1,106 +1,118 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-html, body {
+
+html,
+body {
   height: 100%;
   margin: 0;
 }
+
 body {
   background-image: url("../images/bg2.jpg");
   display: flex;
-  justify-content: center; 
-  align-items: center;     
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   background-size: cover;
   background-position: center;
 }
-.main-box{
+
+.main-box {
   width: 1320px;
   height: 189px;
   background-color: #fff9f4;
   /* background-color: black; */
   padding: 16px 12px 16px 12px;
-  gap:20px;
+  gap: 20px;
   display: flex;
   flex-direction: column;
   border-radius: 10px;
 }
-#heading{
+
+#heading {
   width: 542px;
-  height:31px;
+  height: 31px;
   font-weight: 700;
   font-size: 24px;
   color: #303030;
-  margin: 0 auto; /* centers  h3 */
+  margin: 0 auto;
+  /* centers  h3 */
   text-align: center;
   white-space: nowrap;
   font-family: 'Figtree', sans-serif;
-  
+
 }
-.sub-box{
+
+.sub-box {
   width: 1296px;
   height: 106px;
-  gap:24px;
+  gap: 24px;
   display: flex;
   flex-direction: column;
 }
-.details{
+
+.details {
   width: 1296px;
   height: 44px;
-  gap:24px;
+  gap: 24px;
   display: flex;
 }
 
-#name{
-  width:416px;
-  height:38px;
+#name {
+  width: 416px;
+  height: 38px;
   border-radius: 24px;
-  border:1px;
+  border: 1px;
   border-color: #ffe0c4;
   border-radius: 24px;
-  gap:10px;
-  background-color:#ffffff;
-  padding:17px 16px 17px 16px;
-  color:white;
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 17px 16px 17px 16px;
+  color: white;
   font-weight: 400;
-  font-size:16px;
+  font-size: 16px;
 }
-#number{
-  width:416px;
-  height:38px;
+
+#number {
+  width: 416px;
+  height: 38px;
   border-radius: 24px;
-  border:1px;
+  border: 1px;
   border-color: #ffe0c4;
   border-radius: 24px;
-  gap:10px;
-  background-color:#ffffff;
-  padding:17px 16px 17px 16px;
-  color:white;
+  gap: 10px;
+  background-color: #ffffff;
+  padding: 17px 16px 17px 16px;
+  color: white;
   font-weight: 400;
-  font-size:16px;
+  font-size: 16px;
 }
+
 .captcha-group {
   display: flex;
   gap: 0;
-  width:416px;
-  height:44px;
+  width: 416px;
+  height: 44px;
 }
-#captcha1{
-  width:306px;
-  height:38px;
+
+#captcha1 {
+  width: 306px;
+  height: 38px;
   border-top-left-radius: 24px;
   border-bottom-left-radius: 24px;
-  border:1px;
+  border: 1px;
   border-color: #ffe0c4;
-  padding:17px 16px 17px 16px;
-  gap:10px;
-  background-color:#ffffff;
-  color:white;
+  padding: 17px 16px 17px 16px;
+  gap: 10px;
+  background-color: #ffffff;
+  color: white;
   font-weight: 400;
-  font-size:16px;
+  font-size: 16px;
 }
+
 #captcha2 {
   width: 110px;
   height: 38px;
@@ -116,11 +128,11 @@ body {
   justify-content: center;
 }
 
-.consent{
+.consent {
   display: flex;
-  width:1296px;
-  height:38px;
-  gap:24px;
+  width: 1296px;
+  height: 38px;
+  gap: 24px;
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
@@ -129,7 +141,7 @@ body {
 .tick-box {
   width: 564px;
   align-items: center;
-  height:19px;
+  height: 19px;
   display: flex;
   gap: 8px;
   white-space: nowrap;
@@ -145,35 +157,45 @@ body {
 
 .tick-text {
   width: 537px;
-  height:16px;
+  height: 16px;
   font-family: 'Figtree', sans-serif;
   font-weight: 400;
   font-size: 12px;
   color: #303030;
 }
 
-.consult-div{
-  width:306px;
-  height:38px;
-  gap:4px;
+.consult-div {
+  width: 306px;
+  height: 38px;
+  gap: 4px;
+  z-index: 0;
 }
+
 .consult {
   display: flex;
-  justify-content: center;  
-  align-items: center;      
-  width: 306px;             
-  height: 38px;       
+  justify-content: center;
+  align-items: center;
+  width: 306px;
+  height: 38px;
   border-radius: 24px;
   padding: 16px;
   background-color: #f58420;
 }
-#consult-content{
-  width:149px;
-  height:10px;
+
+#consult-content {
+  width: 149px;
+  height: 10px;
   font-family: 'Figtree', sans-serif;
   font-weight: 600;
   font-size: 14px;
-  color:white;
+  color: white;
   white-space: nowrap;
-  margin:0;
+  margin: 0;
+}
+
+.details input#name,
+.details input#number,
+.details input#captcha1 {
+  position: relative;
+  z-index: 1;
 }
